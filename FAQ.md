@@ -17,7 +17,7 @@ A family of three licenses that share one core. GGL-OS (open source), GGL-EGR (e
 A Covered Work's LICENSE.md says which of the three it is offered under.
 
 **Can I read, cite, copy, and share the specifications for free?**
-Yes, always, under every license. Specification text is under Part S (CC BY-ND 4.0 for Proof Protocol specs): copy and share it verbatim with attribution.
+Yes, always, under every license. Specification text is under Part S (CC BY 4.0 for Proof Protocol specs): copy, share, translate, and adapt it, including commercially, with attribution.
 
 ## Fees
 
