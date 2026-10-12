@@ -1,0 +1,20 @@
+{
+  "title": "Inventor Record: Proof Protocol (Craig Thomas Ellrod)",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "description": "Permanent record of the original inventor and author of the Proof Protocol specifications, including PP-SPEC-077 (ProofFlock: The Dead Canary Protocol) and PP-SPEC-078 (No Bros Jail Mode Protocol), with SHA-256 hashes of each published text. Referenced by the Greater Good License 1.0, Section I.",
+  "creators": [
+    {
+      "name": "Ellrod, Craig Thomas",
+      "orcid": "0009-0004-1058-7666",
+      "affiliation": "Nebulonium, Inc."
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["Proof Protocol", "inventor record", "ProofFlock", "Dead Canary Protocol", "proof of efficacy"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.21379780", "relation": "isSupplementTo", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23285061", "relation": "isSupplementTo", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23285067", "relation": "isSupplementTo", "scheme": "doi"}
+  ]
+}

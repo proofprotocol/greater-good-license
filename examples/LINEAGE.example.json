@@ -1,0 +1,224 @@
+{
+  "ggl": "1.0",
+  "covered_work": "PP-SPEC-077, ProofFlock: The Dead Canary Protocol",
+  "nodes": [
+    {
+      "kind": "root",
+      "parents": [],
+      "contributor": {
+        "name": "Craig Thomas Ellrod",
+        "orcid": "0009-0004-1058-7666"
+      },
+      "builds_on": {
+        "work": "PP-SPEC-077, ProofFlock: The Dead Canary Protocol",
+        "version": "0.8.0"
+      },
+      "scope": {
+        "sections": [
+          "all"
+        ],
+        "claims": [
+          "all"
+        ],
+        "description": "Original invention and specification"
+      },
+      "material_sha256": "0a4ce68b99056c8a46d33c96d7f082c7817138232cefbeb416636e5e97ceec33",
+      "terms": "root",
+      "reserved_price_url": null,
+      "pool_share_pct": "0",
+      "require_enrichment_line": false,
+      "root_claims_touched": false,
+      "assignment_ref": null,
+      "record_doi": "10.5281/zenodo.11111111",
+      "created": "2026-10-11",
+      "hash": "abac8732d8103ae650d3420b7c3ee3227982605a21a4c39cc7dfedd5427ac48c"
+    },
+    {
+      "kind": "enrichment",
+      "parents": [
+        "abac8732d8103ae650d3420b7c3ee3227982605a21a4c39cc7dfedd5427ac48c"
+      ],
+      "contributor": {
+        "name": "Alice Example",
+        "orcid": "0000-0002-1111-1115"
+      },
+      "builds_on": {
+        "work": "PP-SPEC-077, ProofFlock: The Dead Canary Protocol",
+        "version": "0.8.0"
+      },
+      "scope": {
+        "sections": [
+          "17.10"
+        ],
+        "claims": [],
+        "description": "Cloud profile v2"
+      },
+      "material_sha256": "0a4ce68b99056c8a46d33c96d7f082c7817138232cefbeb416636e5e97ceec33",
+      "terms": "contributed",
+      "reserved_price_url": null,
+      "pool_share_pct": "10",
+      "require_enrichment_line": false,
+      "root_claims_touched": false,
+      "assignment_ref": null,
+      "record_doi": "10.5281/zenodo.22222222",
+      "created": "2026-10-11",
+      "hash": "f81875101bd523c3b097eb4a8d8be22dc22e5787a6b49e0106e1b8d072bbbcb1"
+    },
+    {
+      "kind": "enrichment",
+      "parents": [
+        "f81875101bd523c3b097eb4a8d8be22dc22e5787a6b49e0106e1b8d072bbbcb1"
+      ],
+      "contributor": {
+        "name": "Bob Example",
+        "orcid": "0000-0002-2222-2224"
+      },
+      "builds_on": {
+        "work": "PP-SPEC-077, ProofFlock: The Dead Canary Protocol",
+        "version": "0.8.0"
+      },
+      "scope": {
+        "sections": [],
+        "claims": [],
+        "description": "Fast witness"
+      },
+      "material_sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "terms": "reserved",
+      "reserved_price_url": "https://bob.example/price",
+      "pool_share_pct": "0",
+      "require_enrichment_line": false,
+      "root_claims_touched": false,
+      "assignment_ref": null,
+      "record_doi": "10.5281/zenodo.33333333",
+      "created": "2026-10-11",
+      "hash": "06d7450f2b1e696412ad52366190df5b92cd6e368011ca17b67a9f315720b2a5"
+    },
+    {
+      "kind": "enrichment",
+      "parents": [
+        "abac8732d8103ae650d3420b7c3ee3227982605a21a4c39cc7dfedd5427ac48c"
+      ],
+      "contributor": {
+        "name": "Carol Example",
+        "orcid": "0000-0002-3333-3333"
+      },
+      "builds_on": {
+        "work": "PP-SPEC-077, ProofFlock: The Dead Canary Protocol",
+        "version": "0.8.0"
+      },
+      "scope": {
+        "sections": [],
+        "claims": [],
+        "description": "Unreviewed fork"
+      },
+      "material_sha256": null,
+      "terms": "inherit",
+      "reserved_price_url": null,
+      "pool_share_pct": "0",
+      "require_enrichment_line": false,
+      "root_claims_touched": false,
+      "assignment_ref": null,
+      "record_doi": "10.5281/zenodo.44444444",
+      "created": "2026-10-11",
+      "hash": "ee7fb0cbec73a44197e218737dfb4b03e4c4b6d4cb0aaed333b31df2c75dfd1f"
+    },
+    {
+      "kind": "enrichment",
+      "parents": [
+        "abac8732d8103ae650d3420b7c3ee3227982605a21a4c39cc7dfedd5427ac48c"
+      ],
+      "contributor": {
+        "name": "Dave Example",
+        "orcid": "0000-0002-4444-4442"
+      },
+      "builds_on": {
+        "work": "PP-SPEC-077, ProofFlock: The Dead Canary Protocol",
+        "version": "0.8.0"
+      },
+      "scope": {
+        "sections": [],
+        "claims": [
+          "6"
+        ],
+        "description": "Changes root claim 6"
+      },
+      "material_sha256": null,
+      "terms": "contributed",
+      "reserved_price_url": null,
+      "pool_share_pct": "0",
+      "require_enrichment_line": false,
+      "root_claims_touched": true,
+      "assignment_ref": null,
+      "record_doi": "10.5281/zenodo.55555555",
+      "created": "2026-10-11",
+      "hash": "6c1ee8a065ad9fe8dadfd3f807c714322da48f91f8287ccd9030675ffd9ed909"
+    },
+    {
+      "kind": "enrichment",
+      "parents": [
+        "f81875101bd523c3b097eb4a8d8be22dc22e5787a6b49e0106e1b8d072bbbcb1"
+      ],
+      "contributor": {
+        "name": "Eve Example",
+        "orcid": "0000-0002-5555-5551"
+      },
+      "builds_on": {
+        "work": "PP-SPEC-077, ProofFlock: The Dead Canary Protocol",
+        "version": "0.8.0"
+      },
+      "scope": {
+        "sections": [],
+        "claims": [],
+        "description": "Big share"
+      },
+      "material_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa",
+      "terms": "contributed",
+      "reserved_price_url": null,
+      "pool_share_pct": "25",
+      "require_enrichment_line": false,
+      "root_claims_touched": false,
+      "assignment_ref": null,
+      "record_doi": "10.5281/zenodo.99999999",
+      "created": "2026-10-11",
+      "hash": "5a5429f1403d303e3bf35e857283099b9adf0142dcb4e563c9867feaba4923f7"
+    }
+  ],
+  "recognitions": [
+    {
+      "node": "f81875101bd523c3b097eb4a8d8be22dc22e5787a6b49e0106e1b8d072bbbcb1",
+      "parent": "abac8732d8103ae650d3420b7c3ee3227982605a21a4c39cc7dfedd5427ac48c",
+      "by_orcid": "0009-0004-1058-7666",
+      "record_doi": "10.5281/zenodo.66666666",
+      "date": "2026-10-11",
+      "statement": "I recognize this node as an enrichment of my node under GGL-1.0 Section E.",
+      "hash": "2d8407c7911315763bdcb3be51ec25e62b8554a42d9e05f330ee3de9741b67ab"
+    },
+    {
+      "node": "06d7450f2b1e696412ad52366190df5b92cd6e368011ca17b67a9f315720b2a5",
+      "parent": "f81875101bd523c3b097eb4a8d8be22dc22e5787a6b49e0106e1b8d072bbbcb1",
+      "by_orcid": "0000-0002-1111-1115",
+      "record_doi": "10.5281/zenodo.77777777",
+      "date": "2026-10-11",
+      "statement": "I recognize this node as an enrichment of my node under GGL-1.0 Section E.",
+      "hash": "4c3729e08d7aa423478eddcc20a7441b8ff5be3940eb5990f49da7e099fb89c1"
+    },
+    {
+      "node": "6c1ee8a065ad9fe8dadfd3f807c714322da48f91f8287ccd9030675ffd9ed909",
+      "parent": "abac8732d8103ae650d3420b7c3ee3227982605a21a4c39cc7dfedd5427ac48c",
+      "by_orcid": "0009-0004-1058-7666",
+      "record_doi": "10.5281/zenodo.88888888",
+      "date": "2026-10-11",
+      "statement": "I recognize this node as an enrichment of my node under GGL-1.0 Section E.",
+      "hash": "91c1886edffb1e495740200284f2755234c60be4e57fe65d749426eaf54a02a0"
+    },
+    {
+      "node": "5a5429f1403d303e3bf35e857283099b9adf0142dcb4e563c9867feaba4923f7",
+      "parent": "f81875101bd523c3b097eb4a8d8be22dc22e5787a6b49e0106e1b8d072bbbcb1",
+      "by_orcid": "0000-0002-1111-1115",
+      "record_doi": "10.5281/zenodo.12121212",
+      "date": "2026-10-11",
+      "statement": "I recognize this node as an enrichment of my node under GGL-1.0 Section E.",
+      "hash": "e357853332d47e447f5db8cd1992c6f981a22ac3c1a140eb7491f4b95a409870"
+    }
+  ]
+}
