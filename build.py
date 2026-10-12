@@ -35,7 +35,7 @@ Required Notice: Copyright {{{{COPYRIGHT_YEAR}}}} {{{{LICENSOR_NAME}}}}. License
 | **GGL-EGR-1.0**, Education, Government, and Research | Schools, governments, and research and nonprofit bodies | Free. Non-commercial. |
 | **GGL-C-1.0**, Commercial | Anyone using Covered Works commercially outside the other two | Fee. Waived for small businesses. |
 
-All three licenses share the same Section I (Original Inventor), Part S (Specification Text), Part P (Patents), Section E (Enrichment and Lineage), and Section G (General Terms), word for word. They differ only in their own Part: Part O, Part R, or Part C. This copy is **{spdx}**, and its own Part is Part {v[0]}.
+All three licenses share the same Section I (Original Inventor), Part S (Specification Text), Part P (Patents), Section E (Enrichment and Lineage), Section M (Contribution Markers), and Section G (General Terms), word for word. They differ only in their own Part: Part O, Part R, or Part C. This copy is **{spdx}**, and its own Part is Part {v[0]}.
 
 **Offered licenses.** Each Covered Work's declaration lists the family licenses it is offered under. You may use it under any of those whose conditions you meet. If you meet none of them, you have no license to the Covered Work beyond Part S and P.2.
 
@@ -172,7 +172,7 @@ PART["C"] = f"""## Part C. Commercial Terms
 
 def build(v):
     spdx = VARIANTS[v][0]
-    body = "\n\n---\n\n".join([common_head(v), B("I.md"), B("S.md"), PART[v], patents(), enrichment(), general()])
+    body = "\n\n---\n\n".join([common_head(v), B("I.md"), B("S.md"), PART[v], patents(), enrichment(), B("M.md"), general()])
     body = body.replace("*Greater Good License 1.0. Licensor:", f"*{spdx}. Licensor:")
     body = body.replace("any later version of this license", "any later version of any license in the family")
     assert "$" not in body and "Part W" not in body and " W." not in body, [l for l in body.splitlines() if "Part W" in l or " W." in l][:3]

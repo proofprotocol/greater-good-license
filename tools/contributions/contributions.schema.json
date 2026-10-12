@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contribution Schedule (Greater Good License 1.0, Section M.4)",
+  "type": "object",
+  "required": ["ggl", "work", "entries"],
+  "properties": {
+    "ggl": {"const": "1.0"},
+    "work": {"type": "string"},
+    "entries": {"type": "array", "items": {
+      "type": "object",
+      "required": ["organization", "work", "version", "scope", "terms", "patent_claims", "date", "signature"],
+      "properties": {
+        "organization": {"type": "string", "description": "Legal or registered name, identical to the markers (M.2)"},
+        "work": {"type": "string"},
+        "version": {"type": "string"},
+        "scope": {"type": "array", "minItems": 1, "items": {
+          "type": "object", "required": ["file", "by"],
+          "properties": {
+            "file": {"type": "string"},
+            "by": {"enum": ["markers", "pointer", "node", "whole_file"]},
+            "pointer": {"type": "string", "description": "RFC 6901 JSON Pointer, for by: pointer"},
+            "node": {"type": "string", "description": "Dotted path to a YAML node, for by: node"}
+          },
+          "additionalProperties": false}},
+        "terms": {"type": "object", "properties": {"license": {"type": "string"}, "agreement_record_id": {"type": "string"}}, "minProperties": 1, "additionalProperties": false},
+        "patent_claims": {"type": "array", "items": {"type": "string"}},
+        "date": {"type": "string", "format": "date"},
+        "signature": {"type": "string"}
+      },
+      "additionalProperties": false}}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,63 @@
+{
+  "spec": "PP-SPEC-077:21.15",
+  "work": "Greater Good License family 1.0 (GGL-OS, GGL-EGR, GGL-C), tools",
+  "work_version": "1.0.0-draft",
+  "date": "2026-10-12",
+  "human_authors": [
+    {
+      "name": "Craig Thomas Ellrod",
+      "orcid": "0009-0004-1058-7666",
+      "role": "Author; license requirements, tiers, patent split, lineage idea, marker syntax; review and acceptance"
+    }
+  ],
+  "ai_systems": [
+    {
+      "provider": "Anthropic",
+      "model": "Claude (Opus 5.5)",
+      "role": "Clause drafting, mechanism design proposals, tools, tests"
+    }
+  ],
+  "shares": {
+    "conception_and_normative_decisions": {
+      "human": 65,
+      "ai": 35
+    },
+    "design_and_naming": {
+      "human": 35,
+      "ai": 65
+    },
+    "expression": {
+      "human": 0,
+      "ai": 100
+    },
+    "review_and_acceptance": {
+      "human": 100,
+      "ai": 0
+    }
+  },
+  "method": {
+    "kind": "self_estimated",
+    "notes": "Shares drafted by the AI for the author to confirm or correct before release. MAY be re-measured with a tool such as ProofJack.com."
+  },
+  "contributions": {
+    "human": [
+      "Permanent original-inventor requirement tied to ORCID and an Inventor Record",
+      "Free, education/government/research, and commercial tiers; startup waiver",
+      "Contributed versus Reserved patent claims",
+      "Enrichers credited and paid without overriding the root",
+      "[CONTRIBUTED TO <orgname>] marker syntax and default-uncontributed rule"
+    ],
+    "ai": [
+      "Clause text of all sections",
+      "Lineage Node hash tree, recognition, pool cap, root-claim assignment rule",
+      "Section M fail-closed, schedule, and per-version rules",
+      "ggl.py, lineage.py, build.py, ggl_contrib.py and tests"
+    ]
+  },
+  "pending_acceptance": [
+    "All six open parameter values",
+    "Section M (Contribution Markers) placement in the shared core"
+  ],
+  "supersedes": null,
+  "human_form": "AI_DISCLOSURE.md"
+}
