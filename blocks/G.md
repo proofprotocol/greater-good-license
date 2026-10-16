@@ -40,7 +40,7 @@ A modified Specification text must not carry a {{SPEC_NUMBER_PREFIX}} number or 
 
 **G.16 Export and sanctions.** You must comply with all export control, import, and sanctions laws that apply to your use and distribution of a Covered Work, and must not provide one to a person or place those laws prohibit.
 
-**G.17 Survival.** Section I, Part S, P.4, P.5, P.6, P.7, Section M, G.3, G.9, G.12, G.13, G.14, G.17, G.10, and any amounts owed survive the end of any license.
+**G.17 Survival.** Section I, Part S, P.4, P.5, P.6, P.7, Section M, K.6, K.7, G.3, G.9, G.12, G.13, G.14, G.17, G.10, and any amounts owed survive the end of any license.
 
 **G.18 No waiver.** A failure or delay in enforcing any term is not a waiver of it. A waiver counts only if it is in a writing signed by the Licensor, and only for the instance it names.
 

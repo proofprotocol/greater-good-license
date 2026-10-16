@@ -8,7 +8,7 @@ Three licenses, one shared core.
 | Greater Good Education, Government, and Research License 1.0 | `LicenseRef-GGL-EGR-1.0` | Schools, governments, research and nonprofit bodies, and individuals learning | Free. Non-commercial. |
 | Greater Good Commercial License 1.0 | `LicenseRef-GGL-C-1.0` | Commercial use outside the other two | Fee. Waived for small businesses (Startup Tier). |
 
-All three share Section I (Original Inventor), Part S (spec text, CC BY 4.0 by default), Part P (patents: Contributed and Reserved claims), Section E (Enrichment and Lineage), Section M (Contribution Markers: nothing is contributed to any organization unless marked and scheduled), and Section G, word for word. Each adds its own part: O, R, or C. Each Covered Work declares which of the three it is offered under.
+All three share Section I (Original Inventor), Part S (spec text, CC BY 4.0 by default), Part P (patents: Contributed and Reserved claims), Section E (Enrichment and Lineage), Section M (Contribution Markers: nothing is contributed to any organization unless marked and scheduled), Section K (Conduct: Proof Economy Code of Ethics under PESA), and Section G, word for word. Each adds its own part: O, R, or C. Each Covered Work declares which of the three it is offered under.
 
 ## Files
 
