@@ -35,7 +35,7 @@ Required Notice: Copyright {{{{COPYRIGHT_YEAR}}}} {{{{LICENSOR_NAME}}}}. License
 | **GGL-EGR-1.0**, Education, Government, and Research | Schools, governments, and research and nonprofit bodies | Free. Non-commercial. |
 | **GGL-C-1.0**, Commercial | Anyone using Covered Works commercially outside the other two | Fee. Waived for small businesses. |
 
-All three licenses share the same Section I (Original Inventor), Part S (Specification Text), Part P (Patents), Section E (Enrichment and Lineage), Section M (Contribution Markers), and Section G (General Terms), word for word. They differ only in their own Part: Part O, Part R, or Part C. This copy is **{spdx}**, and its own Part is Part {v[0]}.
+All three licenses share the same Section I (Original Inventor), Part S (Specification Text), Part P (Patents), Section E (Enrichment and Lineage), Section M (Contribution Markers), Section K (Conduct: Proof Economy Code of Ethics), and Section G (General Terms), word for word. They differ only in their own Part: Part O, Part R, or Part C. This copy is **{spdx}**, and its own Part is Part {v[0]}.
 
 **Offered licenses.** Each Covered Work's declaration lists the family licenses it is offered under. You may use it under any of those whose conditions you meet. If you meet none of them, you have no license to the Covered Work beyond Part S and P.2.
 
@@ -154,7 +154,7 @@ PART["C"] = f"""## Part C. Commercial Terms
 
 **C.2 Acceptance.** Commercial use outside the Startup Tier and the evaluation period requires accepting GGL-C-1.0 by a signed order form or an online acceptance that names it. Using a Covered Work commercially without doing so is still acceptance of these terms, and fees accrue from first use.
 
-**C.3 Grant.** While you comply with Part C and your fees are paid, the Licensor grants you the right to use, copy, modify, and run the Covered Works offered under GGL-C-1.0 for any purpose; to embed the Software in your own products and distribute it inside them in object form; and to practice the Reserved Claims as embodied in the Software and in conforming implementations. Your own code stays yours and carries no share-alike obligation. Improvements to the Software itself that you distribute to others must be under GGL-C-1.0 or GGL-OS-1.0.
+**C.3 Grant.** While you comply with Part C and your fees are paid, the Licensor grants you a worldwide, non-exclusive, non-transferable, non-sublicensable right to use, copy, modify, and run the Covered Works offered under GGL-C-1.0 for any purpose; to embed the Software in your own products and distribute it inside them in object form; and to practice the Reserved Claims as embodied in the Software and in conforming implementations. Your own code stays yours and carries no share-alike obligation. Improvements to the Software itself that you distribute to others must be under GGL-C-1.0 or GGL-OS-1.0.
 
 **C.4 Startup Tier and evaluation.** A small business that, together with all its Affiliates, had fewer than {{{{SMALL_BIZ_MAX_WORKERS}}}} workers and less than {{{{SMALL_BIZ_MAX_REVENUE_USD}}}} USD in gross revenue last tax year, adjusted each year for US inflation (CPI-U) from {{{{INFLATION_BASE_YEAR}}}}, pays no fee. Every other term of GGL-C-1.0 applies to it. Anyone else may evaluate the Covered Works free for {{{{EVAL_DAYS}}}} days.
 
@@ -168,11 +168,21 @@ PART["C"] = f"""## Part C. Commercial Terms
 
 {auth}
 
-**C.10 Where the fees go.** Fees fund the maintenance of the Covered Works, the {{{{PROGRAM_NAME}}}} infrastructure, and the royalty pool in E.7. The Licensor publishes the pool calculation and payouts each year."""
+**C.10 Where the fees go.** Fees fund the maintenance of the Covered Works, the {{{{PROGRAM_NAME}}}} infrastructure, and the royalty pool in E.7. The Licensor publishes the pool calculation and payouts each year.
+
+**C.11 Leaving the Startup Tier.** If you stop qualifying for the Startup Tier, your license continues, and fees under C.5 accrue from the first day of the fiscal year after the one in which you stopped qualifying. You report that change in your next C.7 report.
+
+**C.12 Payment and taxes.** Fees are in US dollars and are due with your C.7 report, or within 30 days of the Licensor's invoice under a signed order form. Fees exclude taxes. You pay any sales, use, value added, withholding, and similar taxes on them, other than taxes on the Licensor's income. If law requires you to withhold tax, you gross up the payment so the Licensor receives the full fee.
+
+**C.13 Records and audit.** You keep records sufficient to verify your fees for three years after each report. An audit under C.7 is done on 30 days' written notice, during business hours, by the Licensor or an independent accountant bound to keep your records confidential and to report only whether fees were correct and by how much. You pay any shortfall within 30 days of the audit report.
+
+**C.14 Notices and licensing functions.** You may not remove, obscure, or alter any licensing, copyright, attribution, or other notice in a Covered Work, including the Inventor Line, the Required Notice, and any Enrichment Line. You may not move, change, disable, or circumvent any license key, metering, or Unit of Proof counting functionality in the Software, or remove or obscure functionality protected by it.
+
+**C.15 Order forms.** A signed order form may set fees, payment terms, support, and service levels for you, and where it does, it controls over Part C for those items only. No order form, purchase order, or click-through term changes Section I, Part P, Section E, Section M, or G.4, and terms in a purchase order that add to or differ from this license have no effect."""
 
 def build(v):
     spdx = VARIANTS[v][0]
-    body = "\n\n---\n\n".join([common_head(v), B("I.md"), B("S.md"), PART[v], patents(), enrichment(), B("M.md"), general()])
+    body = "\n\n---\n\n".join([common_head(v), B("I.md"), B("S.md"), PART[v], patents(), enrichment(), B("M.md"), B("K.md"), general()])
     body = body.replace("*Greater Good License 1.0. Licensor:", f"*{spdx}. Licensor:")
     body = body.replace("any later version of this license", "any later version of any license in the family")
     assert "$" not in body and "Part W" not in body and " W." not in body, [l for l in body.splitlines() if "Part W" in l or " W." in l][:3]

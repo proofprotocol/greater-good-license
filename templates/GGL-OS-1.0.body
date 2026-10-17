@@ -21,7 +21,7 @@ Required Notice: Copyright {{COPYRIGHT_YEAR}} {{LICENSOR_NAME}}. Licensed under 
 | **GGL-EGR-1.0**, Education, Government, and Research | Schools, governments, and research and nonprofit bodies | Free. Non-commercial. |
 | **GGL-C-1.0**, Commercial | Anyone using Covered Works commercially outside the other two | Fee. Waived for small businesses. |
 
-All three licenses share the same Section I (Original Inventor), Part S (Specification Text), Part P (Patents), Section E (Enrichment and Lineage), Section M (Contribution Markers), and Section G (General Terms), word for word. They differ only in their own Part: Part O, Part R, or Part C. This copy is **GGL-OS-1.0**, and its own Part is Part O.
+All three licenses share the same Section I (Original Inventor), Part S (Specification Text), Part P (Patents), Section E (Enrichment and Lineage), Section M (Contribution Markers), Section K (Conduct: Proof Economy Code of Ethics), and Section G (General Terms), word for word. They differ only in their own Part: Part O, Part R, or Part C. This copy is **GGL-OS-1.0**, and its own Part is Part O.
 
 **Offered licenses.** Each Covered Work's declaration lists the family licenses it is offered under. You may use it under any of those whose conditions you meet. If you meet none of them, you have no license to the Covered Work beyond Part S and P.2.
 
@@ -192,6 +192,28 @@ This section says how a Licensor marks any part of a Covered Work as contributed
 
 ---
 
+## K. Conduct: Proof Economy Code of Ethics
+
+*Ethics, fair dealing, and competitive conduct are governed by the Proof Economy Code of Ethics, under the Proof Economy Standards Alliance (PESA). The Linux Foundation and LF Decentralized Trust set no ethics or fair dealing obligations beyond their Code of Conduct and Antitrust Policy; this section adds to those and replaces neither.*
+
+**K.1 Condition.** Your rights under every license in the family are conditioned on your compliance with the Proof Economy Code of Ethics (the **Code**), governed by PESA and published at https://github.com/proofprotocol/CODE-OF-ETHICS and https://proofeconomy.foundation, in the version in effect when you first used the Covered Work (version 1.0 at the date of this section) or any later version you elect in writing. This section is the licensing term by which the Code binds you, as Code Section 1 contemplates.
+
+**K.2 Later provisions.** Fair dealing and non-harmful competitive practices provisions, and any other provisions PESA adds to the Code after the version that binds you, apply to you only once you elect them. K.3 applies to you in every case.
+
+**K.3 Minimum duties.** Whatever the Code version, you must not: (a) present verification or validation as proof, or label a claim above its true assurance level; (b) make a public claim under a Specification without citing the Record ID or Registry Receipt that supports it; (c) conceal your funding tier or a financial interest in the outcome of a run you perform, witness, adjudicate, or publish; (d) test, witness, or adjudicate your own control, or one in which you hold a financial interest, except as a Specification expressly permits with declared separation; (e) sabotage, poison, or degrade another party's run, corpus, witness, or records, or tune a control to recognize the test rather than the behavior under test; or (f) use a Covered Work, a conformance claim, or a PESA mark to exclude a competitor for any reason other than a proven breach.
+
+**K.4 Delegated authority.** The Licensor delegates to PESA, as the governing body applying the Code under its Section 10, the authority to determine breach of K.1 or K.3 and to suspend or terminate your rights under this section. The Licensor agrees to be bound by those determinations. The Licensor and any party with a commercial stake in the matter take no part in deciding it.
+
+**K.5 Notice and cure.** You will receive written notice of a breach and 30 days to cure before any termination, as in G.2. Cure of a first breach reinstates your rights automatically. A breach PESA's published enforcement procedures class as Critical (fabrication or alteration of proof records, self-certification, unauthorized testing, sabotage, or collusion) carries no cure right; PESA may suspend your rights at once pending a hearing, and the suspension lapses if no determination issues within 60 days.
+
+**K.6 Effect.** On termination under this section, every right granted to you under the family ends, including any patent license under Part P and any right to use names and marks under G.4, and your conformance claims are withdrawn and recorded as revoked in the Registry. G.3 applies. Anyone who received a Covered Work from you keeps their rights while they comply. Rights already granted under Part S in specification text are not affected (S.5).
+
+**K.7 Appeal and courts.** You may appeal a PESA determination under the appeal procedures Code Section 10 requires. Nothing in this section limits G.10 or the jurisdiction of any court.
+
+**K.8 Competition law.** Nothing in this section limits your freedom to build, sell, price, or use any product, or to compete in any market. This section applies subject to applicable antitrust and competition law.
+
+---
+
 ## G. General Terms
 
 **G.1 Contributions.** Two kinds:
@@ -210,7 +232,7 @@ This section says how a Licensor marks any part of a Covered Work as contributed
 
 A modified Specification text must not carry a {{SPEC_NUMBER_PREFIX}} number or present itself as the Specification.
 
-**G.5 Definitions.** **Software** means the code, compiled code, schemas, test suites, test vectors, tools, and documentation the Licensor releases as part of a Covered Work, and later versions of them. **Derivative Work** means a work based on or derived from the Software: modifications, forks, translations, ports, rewrites in another language, and models trained or tuned on it. Using the Software's outputs, results, and reports is not a Derivative Work, and a component that connects at a declared Integration Point without copying, modifying, or linking in Software code is not one. An independent implementation written from a Specification alone is not a Derivative Work of the Software; Part P governs it. **Affiliates** means any entity that controls, is controlled by, or is under common control with you; **Control** means owning most of an entity's equity or the power to direct its management. **Covered Work** means anything the Licensor releases under this license. **Gross Revenue** means all amounts invoiced or received, before any deduction; revenue from a bundle is allocated to each component at its list price. **Integration Point** means an interface a Specification declares for connecting third-party components. **Specification** means a document the Licensor publishes as part of {{PROGRAM_NAME}}. **Unit of Proof** means the measured outcome of one adversarial technique run against a target, as defined in the applicable Specification.
+**G.5 Definitions.** **Software** means the code, compiled code, schemas, test suites, test vectors, tools, and documentation the Licensor releases as part of a Covered Work, and later versions of them. **Derivative Work** means a work based on or derived from the Software: modifications, forks, translations, ports, rewrites in another language, and models trained or tuned on it. Using the Software's outputs, results, and reports is not a Derivative Work, and a component that connects at a declared Integration Point without copying, modifying, or linking in Software code is not one. An independent implementation written from a Specification alone is not a Derivative Work of the Software; Part P governs it. **You** means the individual or Legal Entity exercising rights under this license. If you accept this license on behalf of a company or other organization, "you" means that organization and its Affiliates, and you confirm you have authority to bind it. **Legal Entity** means a company, partnership, government body, institution, or other organization, together with its Affiliates. **Affiliates** means any entity that controls, is controlled by, or is under common control with you; **Control** means owning most of an entity's equity or the power to direct its management. **Covered Work** means anything the Licensor releases under this license. **Gross Revenue** means all amounts invoiced or received, before any deduction; revenue from a bundle is allocated to each component at its list price. **Integration Point** means an interface a Specification declares for connecting third-party components. **Specification** means a document the Licensor publishes as part of {{PROGRAM_NAME}}. **Unit of Proof** means the measured outcome of one adversarial technique run against a target, as defined in the applicable Specification.
 
 **G.6 Versions.** Each release is governed by the version of this license it shipped under. The Licensor may publish new versions, and you may choose to use a release under a later version, except that Section I carries forward unchanged into every version (I.2).
 
@@ -218,11 +240,29 @@ A modified Specification text must not carry a {{SPEC_NUMBER_PREFIX}} number or 
 
 **G.8 Assignment.** The Licensor may assign this license, its rights, and fees owed under it to any affiliate or successor. You may not sublicense or transfer your license.
 
-**G.9 No warranty.** As far as the law allows, every Covered Work is provided as is, and the Licensor is not liable for any damages arising from it.
+**G.9 Disclaimer of warranty.** Unless required by applicable law or agreed in a signed writing, the Licensor provides every Covered Work, Specification, Software, Patent Schedule, and result on an "AS IS" basis, without warranties or conditions of any kind, express or implied, including any warranty of title, non-infringement, merchantability, fitness for a particular purpose, accuracy, or that a control measured with a Covered Work will perform as measured. You alone are responsible for deciding whether to use a Covered Work and for the risks of doing so. A proof, score, or record produced under a Covered Work is a record of what was observed under stated conditions, not a guarantee of future behavior.
 
 **G.10 Governing law.** {{GOVERNING_LAW}} law governs this license, without regard to conflict-of-law rules. Disputes belong exclusively in {{VENUE}}, and you consent to their jurisdiction.
 
 **G.11 Severability.** If any part of this license is unenforceable, it is enforced to the maximum extent allowed and the rest remains in effect.
+
+**G.12 Limitation of liability.** Unless required by applicable law or agreed in a signed writing, in no event and under no legal theory, whether contract, tort (including negligence), or otherwise, is the Licensor, the Original Inventor, or any contributor liable to you for any direct, indirect, special, incidental, consequential, or punitive damages of any kind arising from this license or from the use of or inability to use any Covered Work, including loss of goodwill, data, profits, or business, security incidents, or computer failure, even if advised of the possibility of those damages. Where liability cannot be excluded, it is limited to the fees you paid under this license in the twelve months before the claim arose. This section does not limit amounts you owe, or your liability for breaching Section I, Part P, Section M, or G.4.
+
+**G.13 Offering support or warranty.** You may offer your own customers support, warranty, indemnity, or other obligations for your products that use a Covered Work, and charge for them. You do so only on your own behalf and on your sole responsibility, never on behalf of the Licensor, the Original Inventor, or any contributor, and you will defend and hold each of them harmless from any claim that arises because you offered those obligations.
+
+**G.14 No other rights.** This license grants only the rights it states. The Licensor reserves every right not expressly granted, by implication, estoppel, or otherwise. This license does not prevent the Licensor from granting other licenses to the same Covered Works on different terms.
+
+**G.15 Notices to you and from you.** Notices to the Licensor go to the licensing contact named in the Required Notice. Notices to you go to the contact you gave when you accepted, or, if you gave none, to any address you publish for legal or licensing matters. A notice is given when sent.
+
+**G.16 Export and sanctions.** You must comply with all export control, import, and sanctions laws that apply to your use and distribution of a Covered Work, and must not provide one to a person or place those laws prohibit.
+
+**G.17 Survival.** Section I, Part S, P.4, P.5, P.6, P.7, Section M, K.6, K.7, G.3, G.9, G.12, G.13, G.14, G.17, G.10, and any amounts owed survive the end of any license.
+
+**G.18 No waiver.** A failure or delay in enforcing any term is not a waiver of it. A waiver counts only if it is in a writing signed by the Licensor, and only for the instance it names.
+
+**G.19 Interpretation.** Headings are for convenience. "Including" means including without limitation. The words MUST, MUST NOT, SHOULD, and MAY are used as described in RFC 2119 and RFC 8174 when, and only when, they appear in all capitals. If a translation of this license differs from the English text, the English text controls.
+
+**G.20 Sources.** *Informative.* Sections of this license are modeled on established public licenses and practices, rewritten in plain language and adapted to the Greater Good License family: the definitions of You and Legal Entity, the disclaimer of warranty, the limitation of liability, and the support clause follow the Apache License 2.0 (Sections 1, 7, 8, and 9); the cure period, No Other Rights, and small business tier follow the PolyForm licenses, including PolyForm Small Business 1.0.0; defensive patent termination follows Apache License 2.0 Section 3 and PolyForm Patent Defense; the notice and anti-circumvention limits follow the Elastic License 2.0; the evaluation and hosted-service terms follow the Business Source License 1.1 and the Elastic License 2.0; the fair, reasonable, and nondiscriminatory pricing commitment follows standards-body FRAND licensing practice; and Part S uses Creative Commons Attribution 4.0. None of those licenses applies to a Covered Work unless its declaration names it.
 
 ---
 
