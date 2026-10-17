@@ -10,7 +10,6 @@ This record establishes the original inventor and author of the works listed bel
 |---|---|
 | Name | Craig Thomas Ellrod |
 | ORCID | https://orcid.org/0009-0004-1058-7666 |
-| Affiliation | Nebulonium, Inc. (dba HACKERverse), Castle Rock, Colorado |
 | Role | Original inventor and author |
 
 ## Statement
