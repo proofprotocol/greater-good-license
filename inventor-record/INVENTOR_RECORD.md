@@ -1,6 +1,6 @@
 # Inventor Record: Proof Protocol
 
-This record: DOI [RESERVED_DOI]
+This record: the DOI shown on this Zenodo record page.
 
 This record establishes the original inventor and author of the works listed below. It is deposited on Zenodo so that the identification, its date, and the listed hashes are permanent and publicly verifiable.
 
@@ -18,13 +18,13 @@ This record establishes the original inventor and author of the works listed bel
 I, Craig Thomas Ellrod, am the original inventor and author of the works listed below and of the methods they specify. Under the Greater Good License 1.0, Section I, this identification is permanent and travels with every copy, derivative work, implementation description, and conformance claim. Inventorship and ownership of any patent are as stated in that patent and its assignment records.
 
 Signed: Craig Thomas Ellrod
-Date: 2026-10-12
+Date: 2026-10-16
 
 ## Works
 
 Hashes are SHA-256 of the specification text as published at the commit shown.
 
-The Greater Good License family 1.0 itself (license texts and tools) is published at github.com/proofprotocol/greater-good-license, commit fac5ed9.
+The Greater Good License family 1.0 itself (license texts and tools) is published at github.com/proofprotocol/greater-good-license, commit b3aa35b.
 
 | Work | Version | Commit | Text SHA-256 | Archive DOI |
 |---|---|---|---|---|
@@ -37,6 +37,10 @@ The Greater Good License family 1.0 itself (license texts and tools) is publishe
 | PP-SPEC-078, No Bros Jail Mode Protocol: The Jailed Canary Protocol (SPEC.md) | 0.2.2 | 5fc435b | 0749a20219c2e06849e8e1b67a3e76209f34f01b1c6a9484b480982370356e04 | 10.5281/zenodo.23330057 |
 | PP-SPEC-079, Proof of Performance Engagement: The Coal Mine Protocol (SPEC.md) | 0.1.1 | 52692d7 | 9df9bbd5cb3d18d9d3e88076296b49b6f93f31750ef3a12e9772ab088f8fc2f0 | 10.5281/zenodo.23325770 |
 | PP-SPEC-080, The Pithead Safety and Acceptance Protocol (SPEC.md) | 0.1.0 | 1ded63e | 8802ef4cd33bbfc334bd003a03290b0633bfc2a5922a7eb65c1837da31f0ba61 | 10.5281/zenodo.23325778 |
+| PP-SPEC-077, ProofSwarm: The Dead Canary Protocol (SPEC.md) | 0.7.4 | 4f3845e | 7f4fd87330f553bd82a4d480bf90cf6ce51703f45e9e3382b95bbefa6c26414c | 10.5281/zenodo.23347914 |
+| PP-SPEC-078, No Bros Jail Mode Protocol: The Jailed Canary Protocol (SPEC.md) | 0.2.3 | 653cece | f99508bedd72a1ff1cd9ea5ddefb13edfaeed8380b2ed2a5053c3cfd01713355 | 10.5281/zenodo.23347986 |
+| PP-SPEC-079, Proof of Performance Engagement: The Coal Mine Protocol (SPEC.md) | 0.1.3 | 1934bf8 | 8f0a352e88ea062ffe4c649f645d5adb45a0f1777eafb585c9882a6444fb2178 | 10.5281/zenodo.23347697 |
+| PP-SPEC-080, The Pithead Safety and Acceptance Protocol (SPEC.md) | 0.1.1 | 669ed22 | 3a63b2a7cca6dc7d40c502a7efaefe4ed1cfd947e7916db19938330591040023 | 10.5281/zenodo.23348072 |
 
 Later versions are added as new versions of this record. Each new version repeats this inventor identification unchanged.
 
